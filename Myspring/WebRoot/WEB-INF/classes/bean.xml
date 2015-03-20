@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans> 
+     <description>Spring Quick Start</description> 
+     <bean id="TheAction" 
+		 class="net.spring.qs.UpperAction">
+		 <property name="message"> 
+				<value>HeLLo</value> 
+		</property> 
+		<property name="extra"> 
+				<value>xianghanshun</value> 
+		</property> 
+ 	 </bean>  
+ 	<bean id="action2" class="net.spring.qs.LowerAction">
+		<property name="message"> 
+			<value>HeLLo</value> 
+		</property> 
+	</bean> 
+</beans>
