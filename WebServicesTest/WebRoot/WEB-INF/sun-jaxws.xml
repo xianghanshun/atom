@@ -1,0 +1,10 @@
+<?xml version = "1.0"?>
+<endpoints version="2.0"
+	xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime">
+	<endpoint name="DemoPort" implementation="server.DemoDelegate"
+		url-pattern="/DemoPort">
+	</endpoint>
+	<endpoint name="FileTransPort"
+		implementation="server.FileTransDelegate"
+		url-pattern="/FileTransPort">
+	</endpoint></endpoints>
